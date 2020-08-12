@@ -11,7 +11,7 @@
   <input type="submit" value="Submit">
 </form>
 -->
-
+<!--
 <p>SIGN UP</p>
 <%= form_tag("/users/new", method: "get") do %>
   <%= label_tag(:name, "Name:") %>
@@ -20,5 +20,17 @@
   <%= text_field_tag(:email) %><br><br>
    <%= label_tag(:password, "password:") %>
   <%= text_field_tag(:password) %><br><br>
+  <%= submit_tag("submit") %>
+<% end %>-->
+
+
+
+<%= form_for @user do |f| %>
+  <%= label_tag(:name, "Name:") %>
+  <%= f.text_field(:name) %><br><br>
+   <%= label_tag(:email, "email:") %>
+  <%= f.text_field(:email) %><br><br>
+   <%= label_tag(:password, "password:") %>
+  <%= f.text_field(:password) %><br><br>
   <%= submit_tag("submit") %>
 <% end %>
