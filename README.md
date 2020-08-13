@@ -1,24 +1,58 @@
-# README
+# Re-former
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+In this project, we build a form the old fashioned way and then the Rails way.
 
-Things you may want to cover:
+## Built With
 
-* Ruby version
+- Ruby on Rails
 
-* System dependencies
+# Getting Started 🚀
 
-* Configuration
+These instructions will get you a copy of the project up and running on your local machine.
 
-* Database creation
+## How To Use 🔧
 
-* Database initialization
+From your command line, first clone the project:
 
-* How to run the test suite
+```bash
+# Clone this repository
+$ git clone https://github.com/paulzay/re-former
 
-* Services (job queues, cache servers, search engines, etc.)
+# Go into the project folder
+$ code re-former
 
-* Deployment instructions
+# run bundle install to get the gems
+$ bundle install
 
-* ...
+#Run the migrations
+$ rake db:migrate
+
+# To start the rails console, run
+$ rails c
+```
+
+You can create your own data from here
+
+## CONTRIBUTORS
+
+👤 **Paul Ogolla**
+
+- Github: [@paulzay](https://github.com/paulzay)
+- Twitter: [@_paulzay_](https://twitter.com/_paulzay_)
+- Linkedin: [Paul Ogolla](https://linkedin.com/in/paulogolla)
+
+👤 **Dickens Juma**
+
+- LinkedIn: [Dickens Juma](https://www.linkedin.com/in/dickens-juma/)
+- GitHub: [@DickensJuma](https://github.com/DickensJuma)
+- Twitter: [@juma_dickens](https://twitter.com/juma_dickens)
+
+## Acknowledgments
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
